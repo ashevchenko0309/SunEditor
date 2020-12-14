@@ -129,10 +129,10 @@ export default {
                 '</button>' +
                 '<span class="se-modal-title">' + lang.dialogBox.imageBox.title + '</span>' +
             '</div>' +
-            '<div class="se-dialog-tabs">' +
-                '<button type="button" class="_se_tab_link active" data-tab-link="image">' + lang.toolbar.image + '</button>' +
-                '<button type="button" class="_se_tab_link" data-tab-link="url">' + lang.toolbar.link + '</button>' +
-            '</div>' +
+            // '<div class="se-dialog-tabs">' +
+            //     '<button type="button" class="_se_tab_link active" data-tab-link="image">' + lang.toolbar.image + '</button>' +
+            //     '<button type="button" class="_se_tab_link" data-tab-link="url">' + lang.toolbar.link + '</button>' +
+            // '</div>' +
             '<form method="post" enctype="multipart/form-data">' +
                 '<div class="_se_tab_content _se_tab_content_image">' +
                     '<div class="se-dialog-body"><div style="border-bottom: 1px dashed #ccc;">';
@@ -198,15 +198,15 @@ export default {
                         '</div>' +
                     '</div>' +
                 '</div>' +
-                '<div class="_se_tab_content _se_tab_content_url" style="display: none">' +
-                    '<div class="se-dialog-body">' +
-                        '<div class="se-dialog-form">' +
-                            '<label>' + lang.dialogBox.linkBox.url + '</label><input class="se-input-form se-input-url _se_image_link" type="text" />' +
-                            '<pre class="se-link-preview"></pre>' +
-                        '</div>' +
-                        '<label><input type="checkbox" class="_se_image_link_check"/>&nbsp;' + lang.dialogBox.linkBox.newWindowCheck + '</label>' +
-                    '</div>' +
-                '</div>' +
+                // '<div class="_se_tab_content _se_tab_content_url" style="display: none">' +
+                //     '<div class="se-dialog-body">' +
+                //         '<div class="se-dialog-form">' +
+                //             '<label>' + lang.dialogBox.linkBox.url + '</label><input class="se-input-form se-input-url _se_image_link" type="text" />' +
+                //             '<pre class="se-link-preview"></pre>' +
+                //         '</div>' +
+                //         '<label><input type="checkbox" class="_se_image_link_check"/>&nbsp;' + lang.dialogBox.linkBox.newWindowCheck + '</label>' +
+                //     '</div>' +
+                // '</div>' +
                 '<div class="se-dialog-footer">' +
                     '<div>' +
                         '<label><input type="radio" name="suneditor_image_radio" class="se-dialog-btn-radio" value="none" checked>' + lang.dialogBox.basic + '</label>' +

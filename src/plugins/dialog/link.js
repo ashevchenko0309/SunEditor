@@ -127,7 +127,7 @@ export default {
 
     _onLinkPreview: function (context, protocol, e) {
         const value = e.target.value.trim();
-        context._linkValue = this.textContent = !value ? '' : (protocol && value.indexOf('://') === -1 && value.indexOf('#') !== 0) ? protocol + value : value.indexOf('://') === -1 ? '/' + value : value;
+        context._linkValue = this.textContent = !value ? '' : protocol + value;
     },
 
     submit: function (e) {
