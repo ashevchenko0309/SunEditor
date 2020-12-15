@@ -131,16 +131,19 @@ export default {
         console.log(protocol, value);
 
         if(!value){
-            context._linkValue = this.textContent = protocol    
+            context._linkValue = this.textContent = protocol;
+            return;
         }else{
             if(value.indexOf(protocol) >= 0){
                 context._linkValue = this.textContent = value;
+                return;
             }else{
                 context._linkValue = this.textContent = protocol + value;
+                return;
             }
         }
 
-        context._linkValue = this.textContent = protocol;
+        //context._linkValue = this.textContent = protocol;
 
         // context._linkValue = this.textContent = !value ? protocol : protocol + value;
     },
