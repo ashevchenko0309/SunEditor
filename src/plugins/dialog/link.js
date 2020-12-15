@@ -128,6 +128,8 @@ export default {
     _onLinkPreview: function (context, protocol, e) {
         const value = e.target.value.trim();
 
+        console.log(protocol, value);
+
         if(!value){
             context._linkValue = this.textContent = protocol    
         }else{
